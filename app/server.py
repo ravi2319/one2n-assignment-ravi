@@ -3,7 +3,7 @@ from flask import Flask, abort
 import boto3
 import sys
 
-my_session = boto3.session.Session(profile_name='personal')
+my_session = boto3.session.Session(profile_name='default')
 client = my_session.client('s3')
 paginator = client.get_paginator('list_objects_v2')
 app = Flask(__name__)
