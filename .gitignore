@@ -2,3 +2,6 @@
 /app/__pycache__
 /env
 test.py
+/terrform/.terrform
+/terrform/.terrform.lock.hcl
+/terrform/.*.tfstate.*
