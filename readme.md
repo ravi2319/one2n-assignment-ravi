@@ -118,3 +118,4 @@ As we are using AWS API for getting the objects, the output is paginated to list
 For authenticating with AWS, I am using EC2InstanceMetadata to get credentials from the IAM role attached to avoid harcoded credentials.
 #### Deployment
 I have created a golden AMI with the desired configuration and I am using that to provision the EC2 instance using terraform.
+S3 bucket is not managed by terraform, as it I needed to configure the application code which contains the name of the s3 bucket. 
