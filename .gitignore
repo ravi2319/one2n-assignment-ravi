@@ -2,6 +2,7 @@
 /app/__pycache__
 /env
 test.py
-/terrform/.terrform
-/terrform/.terrform.lock.hcl
-/terrform/.*.tfstate.*
+/terraform/.terraform
+/terraform/.terraform.lock.hcl
+/terraform/*.tfstate
+/terraform/*.backup
